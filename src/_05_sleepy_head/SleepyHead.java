@@ -31,11 +31,11 @@ public class SleepyHead {
 				isVacation = false;
 			}
 			if (isVacation==true || isWeekday==false) {
-				System.out.println("Sleep in");
+				System.out.println("Sleep in.");
 			} else if (isWeekday==true) {
 				System.out.println("Get up lazybones!");
 			} else if (isVacation== true  && isWeekday== true ) {
-				System.out.println("Sleep in");
+				System.out.println("Sleep in.");
 			}
         /*
          * Print “sleep in�? if it is a vacation or a weekend. If it’s a weekday,

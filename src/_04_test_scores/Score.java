@@ -14,7 +14,7 @@ public class Score {
 		}else if (score>=72.5) {
 			JOptionPane.showMessageDialog(null, "Better luck next time.");
 		}else if (score>=61.5) {
-			JOptionPane.showMessageDialog(null, "You should study harder.");
+			JOptionPane.showMessageDialog(null, "You should study harder");
 		}
 	}
 }
