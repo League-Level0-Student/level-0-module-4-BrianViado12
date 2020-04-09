@@ -15,13 +15,16 @@ public class PiAloud {
 			
 		
 	// 2. Make a String variable to hold the value of Pi. You could use http://www.piday.org/million/ for the value.
-			String pi = JOptionPane.showInputDialog("PI");
+			String pi = ("3.14159265358979323846264338327950288419716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111745028410270193852110555964462294895493038196442881097566593344612847564823378678316527120190914564856692346034861045432664821339360726024914127372458700660631558817488152092096282925409171");
 	// 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
-		System.out.println(pi.charAt(0));
+		
 	// 4. Print ALL the digits of of Pi (hint: use a loop)
-
+		for (int i = 0; i < pi.length(); i++) {
+			System.out.print(pi.charAt(i));
+			speak(pi.charAt(i));
+			}
 	// 5. Use the speak() method to speak all the digits of Pi.
-
+		
 	// [ADVANCED]
 	// *6. Get a character from the user using the getInputFromUser() method
 	// *7. Compare the users' char to the next digit of Pi
