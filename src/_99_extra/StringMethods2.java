@@ -1,4 +1,7 @@
 package _99_extra;
+
+import javax.swing.JOptionPane;
+
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
@@ -8,9 +11,9 @@ public class StringMethods2 {
 		
 		// 1. Create a String variable and initialize it with
 		//    random upper and lower case characters.
-
+			String answer = JOptionPane.showInputDialog("Test");
 		// 2. Print your String to the console in upper case.
-		
+			
 		// 3. Print your String to the console in lower case.
 
 		// 4. Print the first 3 char's of your String
